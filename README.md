@@ -1,7 +1,7 @@
 # Blogging Platform API
 
 ## Project Overview
-The Blogging Platform App is an implementation project based on Roadmap.sh designed as a portfolio challenge using Java Spring Boot.
+The Blogging Platform App is an implementation project based on [Roadmap.sh Blogging Platform API](https://roadmap.sh/projects/blogging-platform-api?fl=0) designed as a portfolio challenge using Java Spring Boot.
 The goal of this project is to allow users to **Create, Retrieve, Update, and Delete** blog posts through a RESTful API.
 
 ## Tech Stack & Tools
