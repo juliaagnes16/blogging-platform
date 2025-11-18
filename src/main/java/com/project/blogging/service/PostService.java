@@ -1,8 +1,8 @@
 package com.project.blogging.service;
 
 import com.project.blogging.entity.Post;
-import com.project.blogging.model.PostRequest;
-import com.project.blogging.model.PostResponse;
+import com.project.blogging.dto.PostRequest;
+import com.project.blogging.dto.PostResponse;
 import com.project.blogging.repository.PostRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;

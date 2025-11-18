@@ -1,18 +1,13 @@
 package com.project.blogging.controller;
 
-import com.project.blogging.model.PostRequest;
-import com.project.blogging.model.PostResponse;
+import com.project.blogging.dto.PostRequest;
+import com.project.blogging.dto.PostResponse;
 import com.project.blogging.service.PostService;
-import jakarta.validation.Valid;
-import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.validation.Errors;
-import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.client.ResourceAccessException;
 
 import java.util.List;
 

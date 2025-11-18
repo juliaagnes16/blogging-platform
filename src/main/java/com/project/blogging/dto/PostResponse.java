@@ -1,11 +1,10 @@
-package com.project.blogging.model;
+package com.project.blogging.dto;
 
 import lombok.*;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
-@Data
 @Getter
 @Setter
 @NoArgsConstructor
